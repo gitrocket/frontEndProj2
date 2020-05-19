@@ -1,0 +1,87 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+
+/* body * {
+    outline: 1px solid pink;
+} */
+
+body {
+    background-image: url(/images/bg-desktop.svg);
+    background-color: hsl(257, 40%, 49%);
+}
+
+.grid {
+    display: inline-block;
+}
+
+
+#logo {
+    padding: 30px 0px 0px 50px;
+    width: 200px;
+}
+
+#mockups {
+    padding: 90px 0px 0px 50px;
+    width:  500px;
+}
+
+#slogan {
+    padding: 90px 0px 0px 50px;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    font-size: 2rem;
+}
+
+#sub-slogan {
+    padding: 30px 200px 0px 50px;
+    color: white;
+    font-family: 'Open Sans', sans-serif;
+    font-weight: 400;
+    font-size: 1rem;
+    line-height: 2rem;
+}
+
+#reg-button {
+    margin-top: 20px;
+    margin-left: 50px;
+    color:hsl(257, 40%, 49%);
+    padding: 12px;
+    border-radius: 25px;
+    background-color: white;
+    width: 175px;
+    text-align: center;
+
+}
+
+#instagram,
+#twitter,
+#facebook {
+    margin: 15px;
+    width: 32px;
+    height: 32px;
+}
+
+footer {
+    margin-top: 25px;
+    margin-right: 150px;
+    float: right;
+}
+
+@media(min-width: 850px) {
+    .grid {
+        display: flex;
+    }
+    aside {
+        flex: 1;
+    }
+    article {
+        flex: 1;
+    }
+    #mockups {
+        width:  100%;
+    }
+}
